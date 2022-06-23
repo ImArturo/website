@@ -1,0 +1,82 @@
+
+/* Comandos
+
+padding:10px; se aleja del contenido de la caja
+width: 300px; ancho de 300 pixeles
+margin:40px; margen de 40 pixeles
+
+*/
+
+float: left;
+
+header{
+   /* se fija en la pantalla*/
+   width: 60%;
+   margin: 20px auto;
+
+}
+
+
+body{
+  background: #4ca1af;
+  background: -webkit-linear-gradient(to right, #4ca1af, #c4e0e5);
+  background: linear-gradient(to right, #4ca1af, #c4e0e5);
+  font-family: Arial;
+}
+#contenido  /* Configuracion del cuerpo de la pagina  */
+{
+  width: 60%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/*
+.imagen{
+  position: fixed;
+  left: 100px;}
+*/
+
+nav{width: 40%;
+margin: 0px auto;
+
+
+}
+ /*
+nav{
+  position: fixed;
+  left:600px;
+}
+*/
+ /*
+br{
+  position: relative;
+  left:200px;} */
+
+
+
+nav ul li { /* Botones de arriba */
+    float:left;
+    list-style:none;
+    margin: 10px
+
+}
+
+#dispositivos
+{
+  height: 150px;
+  padding: 100px;
+  float: left;
+}
+
+#textomarcas{
+padding: 10px;
+}
+
+#marcas{
+   height: 100px;
+   padding: 10px;
+}
+
+#redes{
+
+}
